@@ -1,0 +1,176 @@
+.shape-mastery{
+    width: 66px;
+    height: 38px;
+    background-color: #ab4f9a;
+    display: block;
+    position: relative;
+    margin: 25px 0;
+}
+.shape-mastery::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-bottom: 19px solid #ab4f9a;
+    border-right: 33px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.shape-mastery::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-top: 19px solid #ab4f9a;
+    border-right: 33px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
+.shape-enhance{
+    width: 66px;
+    height: 38px;
+    background-color: #ac75f2;
+    display: block;
+    position: relative;
+    margin: 25px 0;
+}
+.shape-enhance::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-bottom: 19px solid #ac75f2;
+    border-right: 33px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.shape-enhance::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-top: 19px solid #ac75f2;
+    border-right: 33px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.shape-origin{
+    width: 66px;
+    height: 38px;
+    background-color: #733ed3;
+    display: block;
+    position: relative;
+    margin: 25px 0;
+}
+.shape-origin::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-bottom: 19px solid #733ed3;
+    border-right: 33px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.shape-origin::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-top: 19px solid #733ed3;
+    border-right: 33px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.shape-origin input{
+        position: absolute;
+        width: 60px;
+        transform: rotate(-90deg); /* 旋轉輸入框以匹配六邊形的旋轉 */
+        text-align: center;
+        border: none;
+        background-color: #ffffff;
+        outline: none;
+}
+
+
+.shape-common{
+    width: 66px;
+    height: 38px;
+    background-color: #6e88b5;
+    display: block;
+    position: relative;
+    margin: 25px 0;
+}
+.shape-common::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-bottom: 19px solid #6e88b5;
+    border-right: 33px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.shape-common::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 33px solid transparent;
+    border-top: 19px solid #6e88b5;
+    border-right: 33px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#result {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 400px; /* 設定寬度 */
+    padding: 20px; /* 設定內邊距 */
+    background-color: #ffffff; /* 設定背景顏色 */
+    border: 1px solid #ddd; /* 設定邊框顏色 */
+    border-radius: 8px; /* 設定圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+    font-family: 'Arial', sans-serif; /* 設定字體 */
+    font-size: 17px; /* 設定字體大小 */
+    color: #333; /* 設定文字顏色 */
+    line-height: 1.5; /* 設定行高 */
+    transition: all 0.3s ease; /* 設定過渡效果 */
+}
+
+#foot {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 20%; /* 設定寬度 */
+    padding: 20px; /* 設定內邊距 */
+    background-color: #ffffff; /* 設定背景顏色 */
+    border: 1px solid #ddd; /* 設定邊框顏色 */
+    border-radius: 8px; /* 設定圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+    font-family: 'Arial', sans-serif; /* 設定字體 */
+    font-size: 17px; /* 設定字體大小 */
+    color: #333; /* 設定文字顏色 */
+    line-height: 1.5; /* 設定行高 */
+}
+
